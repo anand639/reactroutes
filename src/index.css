@@ -1,0 +1,30 @@
+/* src/index.css */
+body,
+h2,
+p {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+nav {
+	background-color: #333;
+	padding: 10px 0;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+
+nav a {
+	color: white;
+	padding: 10px 15px;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+nav a.active {
+	border-bottom: 2px solid yellow;
+}
+
+div {
+	padding: 20px;
+}
